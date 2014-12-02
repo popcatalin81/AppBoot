@@ -63,6 +63,7 @@
     <Compile Include="Container\ServiceBuilder.cs" />
     <Compile Include="Container\ServiceRegistrationBehavior.cs" />
     <Compile Include="IDependencyContainer.cs" />
+    <Compile Include="IHierarchicalServiceLocator.cs" />
     <Compile Include="IModule.cs" />
     <Compile Include="Container\IRegistrationBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +74,7 @@
     </Compile>
     <Compile Include="UnityBootstrapper.cs" />
     <Compile Include="UnityContainerAdapter.cs" />
+    <Compile Include="UnityHierarchicalServiceLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Application.cd" />
